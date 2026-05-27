@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exámenes Extraordinarios</title>
+    <link rel="stylesheet" href="Extraordinarios.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Exámenes Extraordinarios</h1>
+        <form id="formExtraordinario">
+            <input type="number" id="profesor_id" placeholder="ID del Profesor" required>
+            <input type="number" id="alumno_id" placeholder="ID del Alumno" required>
+            <input type="text" id="materia" placeholder="Materia" required>
+            <input type="number" id="calificacion" placeholder="Calificación (0-10)" min="0" max="10" step="0.1" required>
+            <input type="date" id="fecha_examen" required>
+            <select id="status" required>
+                <option value="">Estado</option>
+                <option value="aprobado">Aprobado</option>
+                <option value="reprobado">Reprobado</option>
+            </select>
+            <button type="submit">Registrar Extraordinario</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="Extraordinarios.js"></script>
+</body>
+</html>

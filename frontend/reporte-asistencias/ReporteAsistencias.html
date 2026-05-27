@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Asistencias</title>
+    <link rel="stylesheet" href="ReporteAsistencias.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Reporte de Asistencias</h1>
+        <form id="formAsistencia">
+            <input type="number" id="profesor_id" placeholder="ID del Profesor" required>
+            <input type="number" id="alumno_id" placeholder="ID del Alumno" required>
+            <input type="text" id="materia" placeholder="Materia" required>
+            <input type="date" id="fecha" required>
+            <select id="status" required>
+                <option value="">Estado</option>
+                <option value="presente">Presente</option>
+                <option value="ausente">Ausente</option>
+                <option value="justificado">Justificado</option>
+            </select>
+            <button type="submit">Registrar Asistencia</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="ReporteAsistencias.js"></script>
+</body>
+</html>

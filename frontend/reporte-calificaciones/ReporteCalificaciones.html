@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Calificaciones</title>
+    <link rel="stylesheet" href="ReporteCalificaciones.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Reporte de Calificaciones</h1>
+        <form id="formReporte">
+            <input type="number" id="profesor_id" placeholder="ID del Profesor" required>
+            <input type="text" id="materia" placeholder="Materia" required>
+            <button type="submit">Generar Reporte</button>
+        </form>
+        <div id="mensaje"></div>
+        <table id="tabla" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Alumno ID</th>
+                    <th>Materia</th>
+                    <th>Parcial</th>
+                    <th>Calificación</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla"></tbody>
+        </table>
+    </div>
+    <script src="ReporteCalificaciones.js"></script>
+</body>
+</html>

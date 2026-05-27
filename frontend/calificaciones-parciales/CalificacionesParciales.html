@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones Parciales</title>
+    <link rel="stylesheet" href="CalificacionesParciales.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calificaciones Parciales</h1>
+        <form id="formParciales">
+            <input type="number" id="profesor_id" placeholder="ID del Profesor" required>
+            <input type="number" id="alumno_id" placeholder="ID del Alumno" required>
+            <input type="text" id="materia" placeholder="Materia" required>
+            <select id="parcial" required>
+                <option value="">Parcial</option>
+                <option value="1">Primer Parcial</option>
+                <option value="2">Segundo Parcial</option>
+                <option value="3">Tercer Parcial</option>
+            </select>
+            <input type="number" id="calificacion" placeholder="Calificación (0-10)" min="0" max="10" step="0.1" required>
+            <button type="submit">Registrar Calificación</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="CalificacionesParciales.js"></script>
+</body>
+</html>
