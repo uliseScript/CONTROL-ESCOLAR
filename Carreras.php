@@ -1,6 +1,6 @@
 <?php
 // Módulo: Director de Carrera
-
+//Carreras
 
 $carreras = [];
 
