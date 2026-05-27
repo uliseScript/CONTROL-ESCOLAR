@@ -12,7 +12,7 @@ $opciones = [
 ];
 ?>
 
-<h2>Menú Principal</h2>
+<h2>Menú Principal</h2><br>
 
 <div class="menu">
     <?php foreach ($opciones as $op) { ?>
