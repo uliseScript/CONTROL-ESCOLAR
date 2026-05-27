@@ -1,3 +1,3 @@
-// Interfaz de CRUD de BECAS
+//  Interfaz de CRUD de BECAS
 // Módulo: Administrativo Nivel B
 // Sistema: Control Escolar
