@@ -4,6 +4,7 @@
 
 $evaluaciones = [];
 
+
 // Registrar evaluación
 function evaluarProfesor(&$evaluaciones, $idProfesor, $puntaje, $comentario) {
     $evaluacion = [
