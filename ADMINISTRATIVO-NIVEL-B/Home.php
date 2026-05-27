@@ -1,10 +1,9 @@
 <?php
-// =============================================
-// SISTEMA: Control Escolar
+// ==================================
 // MÓDULO: Administrativo Nivel B
 // INTERFAZ: Home - Menú Principal
 // AUTOR: Erik mtz
-// =============================================
+// ===================================
 
 $menuAdminNivelB = [
     "modulo" => "Administrativo Nivel B",
