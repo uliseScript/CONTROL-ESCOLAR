@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones</title>
+    <link rel="stylesheet" href="Inscripciones.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Inscripción de Alumnos</h1>
+        <form id="formInscripcion">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" id="apellido_paterno" placeholder="Apellido Paterno" required>
+            <input type="text" id="apellido_materno" placeholder="Apellido Materno">
+            <input type="text" id="matricula" placeholder="Matrícula" required>
+            <input type="text" id="carrera" placeholder="Carrera" required>
+            <input type="number" id="semestre" placeholder="Semestre" required>
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" id="telefono" placeholder="Teléfono">
+            <button type="submit">Inscribir</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="Inscripciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajas</title>
+    <link rel="stylesheet" href="Bajas.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Baja de Alumnos</h1>
+        <form id="formBaja">
+            <input type="text" id="matricula" placeholder="Matrícula" required>
+            <select id="tipo" required>
+                <option value="">Tipo de Baja</option>
+                <option value="temporal">Temporal</option>
+                <option value="definitiva">Definitiva</option>
+            </select>
+            <textarea id="motivo" placeholder="Motivo de la baja" required></textarea>
+            <input type="date" id="fecha_baja" required>
+            <button type="submit">Registrar Baja</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="Bajas.js"></script>
+</body>
+</html>
