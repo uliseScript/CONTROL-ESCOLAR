@@ -1,27 +1,27 @@
 <?php
 
-echo "<h1>CRUD Horarios Profesores</h1>";
+echo "<h1>CRUD Horarios Alumnos</h1>";
 
-$horarios = [
+$alumnos = [
     [
-        "profesor" => "Juan Pérez",
-        "materia" => "Programación",
-        "hora" => "08:00 AM"
+        "alumno" => "Carlos",
+        "materia" => "Base de Datos",
+        "hora" => "09:00 AM"
     ],
     [
-        "profesor" => "Ana López",
-        "materia" => "Matemáticas",
-        "hora" => "10:00 AM"
+        "alumno" => "María",
+        "materia" => "Programación",
+        "hora" => "11:00 AM"
     ]
 ];
 
-echo "<h3>Horarios registrados</h3>";
+echo "<h3>Horarios de alumnos</h3>";
 
-foreach($horarios as $h){
+foreach($alumnos as $a){
 
-    echo "Profesor: " . $h['profesor'] . "<br>";
-    echo "Materia: " . $h['materia'] . "<br>";
-    echo "Hora: " . $h['hora'] . "<br><br>";
+    echo "Alumno: " . $a['alumno'] . "<br>";
+    echo "Materia: " . $a['materia'] . "<br>";
+    echo "Hora: " . $a['hora'] . "<br><br>";
 }
 
 ?>
